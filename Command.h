@@ -7,8 +7,6 @@ using std::string;
 namespace UndavCommand{
 	struct Command;
 
-	enum CommandType {Fibonacci, Hanoi};
-
 	// Precondicion: Ninguna
 	// Postcondicion: Devuelve una instancia lista para utilizar de Command que
 	// tiene como nombre el string: "Fib([n])" donde [n] es @n y que al ejecutarse

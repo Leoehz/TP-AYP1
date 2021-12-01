@@ -2,6 +2,8 @@
 #include <iostream>
 #include <string>
 
+enum CommandType {Fibonacci, Hanoi};
+
 struct UndavCommand::Command{
     string name;
     UndavCommand::CommandType commandType;
